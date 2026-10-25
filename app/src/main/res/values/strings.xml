@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">hiWeb ipCams</string>
+
+    <!-- Виджеты -->
+    <string name="widget_live_label">Камера: трансляция</string>
+    <string name="widget_live_picker_description">Кадры выбранной камеры прямо на домашнем экране. Нажатие открывает камеру на весь экран.</string>
+    <string name="widget_live_frame_description">Кадр трансляции камеры</string>
+    <string name="widget_live_no_frame">Нет кадра. Нажмите ▶, чтобы включить трансляцию</string>
+    <string name="widget_live_toggle_description">Включить или выключить обновление трансляции</string>
+    <string name="widget_list_label">Камеры: список</string>
+    <string name="widget_list_picker_description">Камеры с превью и статусом подключения. Нажатие открывает камеру на весь экран.</string>
+    <string name="widget_list_title">Камеры</string>
+    <string name="widget_list_empty">Камеры не добавлены</string>
+    <string name="widget_list_refresh_description">Обновить статусы камер</string>
+    <string name="widget_config_title">Камера для виджета</string>
+</resources>

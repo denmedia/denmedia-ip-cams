@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Тёмная тема окна: без белой вспышки при запуске, фон совпадает с фоном приложения -->
+    <style name="Theme.DenMediaIPCams" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:colorBackground">@color/app_background</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Виджет трансляции: свободно меняет размер по ширине и высоте (по умолчанию 4x2 — пропорции видео 16:9) -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.denmediaipcams.widget.LiveWidgetConfigActivity"
+    android:description="@string/widget_live_picker_description"
+    android:initialLayout="@layout/widget_live_camera"
+    android:minWidth="110dp"
+    android:minHeight="60dp"
+    android:minResizeWidth="110dp"
+    android:minResizeHeight="60dp"
+    android:previewLayout="@layout/widget_live_camera"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="4"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable" />

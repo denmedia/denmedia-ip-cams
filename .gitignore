@@ -1,0 +1,26 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Ключ подписи и пароли — только локально
+keystore.properties
+*.jks
+*.keystore
+
+# Локальные служебные папки
+/.kotlin
+/.claude
+/acl-recovery
+/app/build
